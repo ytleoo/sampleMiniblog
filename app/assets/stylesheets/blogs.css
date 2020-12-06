@@ -1,0 +1,165 @@
+html {
+  box-sizing: border-box;
+  font-family: Helvetica Neue;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+h1,h3,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background: #169B8A;
+  color: white;
+  height: 60px;
+  box-shadow: 0px 0px 2px 1px gray;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  line-height: 60px;
+}
+
+.container h1 {
+  float: left;
+}
+
+
+.nav {
+  float: right;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 15px;
+  height: 60px;
+}
+
+.nav li:hover{
+  background: #61616194;
+}
+
+
+/*--------------index------------------*/
+.blog_container {
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blogbox {
+  width: 80%;
+  box-shadow: 0px 1px 3px 0px grey;
+  padding: 35px 25px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.btn {
+  list-style: none;
+  margin-top: 15px;
+  line-height: 45px;
+}
+
+.btn li {
+  background-color: #1AAB9C;
+  display: inline;
+  margin-right: 8px;
+  padding: 10px 25px;
+  box-shadow: 0px 1px 3px 0px grey;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.btn li:hover{
+  background: #55c7b9;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/*---------------new-----------------*/
+.new_blog {
+  width: 90%;
+  padding: 35px 25px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.textbox {
+  　 -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    resize: none;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #169b8a;
+    margin-bottom: 60px;
+    font-size: 1em;
+    height: 80px;
+    line-height: 1.5em;
+}
+
+.formlbl{
+  color: #8c8c8c;
+  font-size: 0.8em;
+}
+
+.formbtn,
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: #1AAB9C;
+    display: inline;
+    margin-right: 8px;
+    padding: 8px 25px;
+    box-shadow: 0px 1px 3px 0px grey;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.formbtn:hover {
+  background: #55c7b9;
+}
+
+.titlebox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  resize: none;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+  font-size: 1em;
+  height: 40px;
+  line-height: 1.5em;
+}
